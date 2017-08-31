@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         el ebin bitchute downloader
 // @namespace    http://tampermonkey.net/
-// @version      0.1.1
+// @version      0.1.2
 // @description  no homo
 // @author       jeff@i2p.rocks
 // @match        https://www.bitchute.com/video/*
