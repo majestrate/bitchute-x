@@ -227,6 +227,7 @@ Downloader.prototype.inject = function()
 
 Downloader.prototype.start = function()
 {
+    var self = this;
     self.ready = false;
     self.client = new WebTorrent();
     self.torrentId = window.torrentId;
