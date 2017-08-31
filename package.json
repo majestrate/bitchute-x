@@ -12,6 +12,6 @@
         "uglify-js": "^3.0.28"
     },
     "scripts": {
-        "build": "mkdir -p build && cp base/header.js build/bitchute-x.user.js && browserify lib/main.js | uglifyjs >> build/bitchute-x.user.js && cat base/footer.js >> build/bitchute-x.user.js"
+        "build": "mkdir -p build && cp base/header.js build/bitchute-x.user.js && browserify lib/main.js >> build/bitchute-x.user.js && cat base/footer.js >> build/bitchute-x.user.js"
     }
 }

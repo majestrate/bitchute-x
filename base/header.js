@@ -10,4 +10,3 @@
 
 (function()
 {
-    "use strict"
