@@ -3,6 +3,7 @@ OUT = dist/bitchute-x.user.js
 all: clean $(OUT)
 
 build:
+	yarn install
 	yarn run build
 
 $(OUT): build
