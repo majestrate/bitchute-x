@@ -1,0 +1,17 @@
+{
+    "name": "bitchute-x",
+    "version": "0.0.1",
+    "description": "el ebin bitchute userscript",
+    "main": "lib/main.js",
+    "repository": "https://github.com/majestrate/bitchute-x/",
+    "author": "Jeff Becker <jeff@i2p.rocks>",
+    "license": "MIT",
+    "dependencies": {
+        "browserify": "^14.4.0",
+        "file-saver": "^1.3.3",
+        "uglify-js": "^3.0.28"
+    },
+    "scripts": {
+        "build": "mkdir -p build && cp base/header.js build/bitchute-x.user.js && browserify lib/main.js | uglifyjs >> build/bitchute-x.user.js"
+    }
+}
