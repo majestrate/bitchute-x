@@ -7,3 +7,7 @@
 // @match        https://www.bitchute.com/video/*
 // @grant        none
 // ==/UserScript==
+
+(function()
+{
+    "use strict"
