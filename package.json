@@ -8,6 +8,8 @@
     "license": "MIT",
     "dependencies": {
         "browserify": "^14.4.0",
+        "ipfs": "^0.25.4",
+        "parse-torrent": "^5.8.3",
         "uglify-js": "^3.0.28"
     },
     "scripts": {

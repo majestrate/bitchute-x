@@ -1,12 +1,12 @@
 OUT = dist/bitchute-x.user.js
 
-all: clean $(OUT)
+all: clean build
 
 build:
 	yarn install
 	yarn run build
 
-$(OUT): build
+dist: build
 	mkdir -p dist
 	cp build/bitchute-x.user.js $(OUT)
 
