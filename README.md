@@ -6,11 +6,8 @@ Bitchute eXtended user script
 
 ### current
 
-* video downloader
-
-### future
-
-* ipfs powered comments (maybe)
+* video downloader (using webtorrent)
+* decentralized live chat (using IPFS)
 
 ## requirements
 
