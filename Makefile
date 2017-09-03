@@ -10,7 +10,7 @@ build:
 	cp $(BUILD) $(DEV)
 
 dist: build
-	cp $(DEV) $(DIST)
+	cp $(BUILD) $(DIST)
 
 upload: build
 	scp build/*.user.js root@i2p.rocks:/var/www/html/files/bitchute-x/
