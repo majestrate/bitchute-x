@@ -95,6 +95,10 @@ Chat.prototype.start = function(callback)
     });
 };
 
+module.exports = {
+    "Chat": Chat
+};
+
 },{"./util.js":7,"ipfs":316}],2:[function(require,module,exports){
 /* FileSaver.js
  * A saveAs() FileSaver implementation.
