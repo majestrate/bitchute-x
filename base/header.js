@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         el ebin bitchute downloader
+// @name         Bitchute-X
 // @namespace    http://tampermonkey.net/
-// @version      0.1.3
-// @description  no homo
+// @version      0.2.0
+// @description  Bitchute eXtender Script
 // @author       jeff@i2p.rocks
 // @match        https://www.bitchute.com/video/*
 // @grant        none
