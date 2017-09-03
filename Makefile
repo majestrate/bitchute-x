@@ -12,5 +12,8 @@ build:
 dist: build
 	cp $(DEV) $(DIST)
 
+upload: build
+	scp build/*.user.js root@i2p.rocks:/var/www/html/files/bitchute-x/
+
 clean:
 	rm -fr build
