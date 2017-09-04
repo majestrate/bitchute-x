@@ -2,18 +2,20 @@
 
 Bitchute eXtended user script
 
-## features
+Extends Bitchute.com functionality
 
-### current
+## Features
+
+### Current
 
 * video downloader (using webtorrent)
 * decentralized live chat (using IPFS)
 
-## requirements
+## Requirements
 
 * tampermonkey
 
-## usage
+## Usage
 
 Add [this](https://github.com/majestrate/bitchute-x/raw/master/dist/bitchute-x.user.js) as a user script
 

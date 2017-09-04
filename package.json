@@ -10,9 +10,10 @@
         "browserify": "^14.4.0",
         "ipfs": "^0.25.4",
         "parse-torrent": "^5.8.3",
-        "uglify-js": "^3.0.28"
+        "uglify-es": "^3.0.28",
+        "webtorrent": "^0.98.19"
     },
     "scripts": {
-        "build": "mkdir -p build && cp base/header.js build/bitchute-x.user.js && browserify lib/main.js >> build/bitchute-x.user.js && cat base/footer.js >> build/bitchute-x.user.js"
+        "build": "mkdir -p build && cp base/header.js build/bitchute-x.user.js && browserify lib/main.js | uglifyjs >> build/bitchute-x.user.js && cat base/footer.js >> build/bitchute-x.user.js"
     }
 }
