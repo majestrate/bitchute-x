@@ -13,6 +13,7 @@
         "webtorrent": "^0.98.19"
     },
     "scripts": {
-        "build": "mkdir -p build && cat base/header.js | sed s/\\(VERSION\\)/$(cat base/version.txt)$(git rev-parse --short HEAD)/ > build/bitchute-x.user.js && browserify lib/main.js | uglifyjs >> build/bitchute-x.user.js && cat base/footer.js >> build/bitchute-x.user.js"
+      "dev": "mkdir -p build && cat base/header.js | sed s/\\(VERSION\\)/$(cat base/version.txt)-$(git rev-parse --short HEAD)/ > build/bitchute-x.user.js && browserify lib/main.js | uglifyjs >> build/bitchute-x.user.js && cat base/footer.js >> build/bitchute-x.user.js",
+      "build": "mkdir -p build && cat base/header.js | sed s/\\(VERSION\\)/$(cat base/version.txt)/ > build/bitchute-x.user.js && browserify lib/main.js | uglifyjs >> build/bitchute-x.user.js && cat base/footer.js >> build/bitchute-x.user.js"
     }
 }
