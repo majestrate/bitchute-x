@@ -8,7 +8,6 @@
     "license": "MIT",
     "dependencies": {
         "browserify": "^14.4.0",
-        "ipfs": "^0.25.4",
         "parse-torrent": "^5.8.3",
         "uglify-es": "^3.0.28",
         "webtorrent": "^0.98.19"
