@@ -9,11 +9,11 @@ Extends Bitchute.com functionality
 ### Current
 
 * video downloader (using webtorrent)
-* decentralized live chat (using IPFS)
+* enable webtorrent on firefox
 
 ## Requirements
 
-* tampermonkey
+* tampermonkey or greasemonkey
 
 ## Usage
 
